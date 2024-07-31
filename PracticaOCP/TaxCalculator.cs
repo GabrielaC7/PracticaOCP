@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 
 namespace PracticaOCP
@@ -15,7 +15,7 @@ namespace PracticaOCP
                 { "USA", new USATaxStrategy() },
                 { "UK", new UKTaxStrategy() },
                 { "France", new FranceTaxStrategy() }
-                // Agregar más estrategias aquí
+             
             };
         }
 
